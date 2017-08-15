@@ -1,0 +1,80 @@
+# def BinMeInput():
+# 	num = raw_input('Enter a number to convert to Binary: ')
+# 	num = int(num)
+# 	print 'From ', num, ' to: '
+# 	binNum = bin(num)
+# 	print binNum[2:]
+
+def BinMe(num):
+	print 'From ', num, ' to: '
+	binNum = bin(num)
+	print binNum[2:]
+
+def ASCIIMe(bigList):
+	print 'From ', bigList, ' to: '
+	result = ''
+	for element in bigList:
+		result += chr(element)
+	print result
+
+def HexMe(bin):
+	print 'From ', bin, ' to: '
+	print hex(int(bin,2))
+
+def DecMe(octal):
+	print 'From ', octal, ' to: '
+	result = 0
+	counter = 0
+	while octal > 0:
+		result += (octal%10) * (8 ** counter)
+		octal = octal/10
+		counter += 1
+	print result	
+
+
+
+
+def main():
+	print 'BinMe'
+	BinMe(57)
+	BinMe(123)
+	BinMe(85)
+	BinMe(38)
+	print 
+	print 'ASCIIMe'
+	print 
+	# test1 = [0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x20, 0x57, 0x6f, 0x72, 0x6c, 0x64] 
+	# ASCIIMe(test1)
+	a1 = [0x41, 0x53, 0x43, 0x49, 0x49, 0x20, 0x77, 0x68, 0x61, 0x74, 0x20, 0x79, 0x6f, 0x75, 0x20, 0x64, 0x69, 0x64, 0x20, 0x74, 0x68, 0x65, 0x72, 0x65]
+	ASCIIMe(a1)
+	b1 = [0x39, 0x41, 0x4d, 0x20, 0x69, 0x73, 0x20, 0x74, 0x6f, 0x6f, 0x20, 0x65, 0x61, 0x72, 0x6c, 0x79, 0x20, 0x66, 0x6f, 0x72, 0x20, 0x63, 0x6c, 0x61, 0x73, 0x73]
+	ASCIIMe(b1)
+	c1 = [0x43, 0x6f, 0x6d, 0x70, 0x75, 0x74, 0x65, 0x72, 0x73, 0x20, 0x61, 0x72, 0x65, 0x20, 0x6d, 0x61, 0x67, 0x69, 0x63]
+	ASCIIMe(c1)
+	d1 = [0x57, 0x68, 0x61, 0x74, 0x20, 0x74, 0x68, 0x65, 0x20, 0x68, 0x65, 0x78, 0x3f]
+	ASCIIMe(d1)
+	print 
+	print 'HexMe'
+	print
+	# test2 = '10101010'
+	# HexMe(test2)
+	a2 = '00001011101011101101111010101101'
+	b2 = '11001010111111101111101011001110'
+	c2 = '10111110111011111101000000001101'
+	d2 = '11111111111111111001000001100010'
+	HexMe(a2)
+	HexMe(b2)
+	HexMe(c2)
+	HexMe(d2)
+	print 
+	print 'DecMe'
+	print
+	# DecMe(63)
+	DecMe(10)
+	DecMe(42)
+	DecMe(77)
+	DecMe(113)
+
+main()
+
+
