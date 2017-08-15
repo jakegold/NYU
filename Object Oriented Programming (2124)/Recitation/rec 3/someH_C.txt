@@ -1,0 +1,13 @@
+Ethane C2H6
+ethylene C2H4
+Propane C3H8
+Propyne C3H3
+Butane C4H10
+n-Butane C4H10
+iso-Butane C4H10
+Pentane C5H12
+Hexane C6H14
+Heptane C7H16
+Octane C8H18
+Nonane C9H20
+Decane C10H22
