@@ -1,0 +1,5 @@
+my string: /bin/ls
+a.txt
+shell
+shell.c
+shell.dSYM
