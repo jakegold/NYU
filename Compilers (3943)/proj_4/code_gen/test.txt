@@ -1,0 +1,14 @@
+boys = ['Jason Adams', 'Jack Baum', 'Josh Berkowitz', 'Jonah Delman', 'Boaz Edidin',
+'Ethan Frankel', 'Avi Fried', 'Ezra Glasman', 'Ezra Grossman', 'Joshua Jacobs',
+'Zachary Kalker', 'Samuel Kroll', 'Jarrett Lazarus', 'Noah Levy', 'Jared Moskowitz',
+'Jacob OConner', 'Julian Piafsky', 'Yoel Silverstein', 'Noah Sonnenklar', 'Jake Spitzer',
+'Daniel Sternberg', 'Harrison Tassler']
+
+girls = ['Samara Blatt', 'Rebecca Dyckman', 'Adina Eisenmann', 'Lani Fetman',
+'Maya Glasman', 'Hannah Goldenberg', 'Emily Grunstein', 'Miri Horowitz', 'Shoshana Iskowitz',
+'Gabriella Jacobs', 'Gabi Jacobson', 'Talia Jerome', 'Hadassah Kass', 'Sarah Lewis', 
+'Ella Low', 'Kaya OConner', 'Kira Pollard', 'Abby Rabinowitz', 'Sohpia Ratner-Stauber', 
+'Grace Sharon', 'Rachel Sharon', 'Naomi Siri', 'Toby Spielman', 'Abigail Spitzer', 'Ella Toczek', 
+'Ariana Wisotsky', 'Goldy Zazon']
+
+print len(boys) + len(girls)

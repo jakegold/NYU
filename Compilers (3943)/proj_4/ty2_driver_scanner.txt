@@ -1,0 +1,8 @@
+token	token	token
+number	name	value
+1		int_kw		"int"
+10		identifier		"x"
+21		SEMI		";"
+2		float_kw		"float"
+10		identifier		"x"
+21		SEMI		";"

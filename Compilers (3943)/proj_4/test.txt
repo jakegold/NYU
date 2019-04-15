@@ -1,0 +1,9 @@
+  int main (int dummy) 
+  {
+    int i;
+
+    /* interesting part */
+    read i;
+    write "I got" , i;
+  }
+  

@@ -1,0 +1,27 @@
+Error: Did not close a parentheses!
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Function int main(int) defined in line 0.
+Local int variable DUMMY declared in line 0.
+Local int variable x declared in line 3.
+Local int variable y declared in line 3.
+Local float variable p declared in line 5.
+Local variable p declared in line 5 used in line 8.
+Local variable x declared in line 3 used in line 8.
+Local variable y declared in line 3 used in line 8.
+Local variable p declared in line 5 used in line 8.
+Local variable x declared in line 3 used in line 8.
+Local variable y declared in line 3 used in line 8.
+Local variable p declared in line 5 used in line 11.
+Local variable x declared in line 3 used in line 11.
+Local variable y declared in line 3 used in line 11.
+Local variable p declared in line 5 used in line 11.
+Local variable x declared in line 3 used in line 11.
+Local variable y declared in line 3 used in line 11.

@@ -1,0 +1,43 @@
+<html>
+<head>
+</head>
+<body>
+	<h1>Hello {{username}}</h1> 
+<!-- <form action="/post" method="POST">
+	<h1>Welcome {{username}}</h1> 
+	<input type="text" name = "blog" placeholder="post" required/> </br>
+	<input type="submit" value = Post />
+</form> -->
+
+	<h2>These are your friend groups!</h2>
+
+	
+
+
+<style type="text/css">
+	table, th, td{
+		border: 1px solid black;
+	}
+</style>
+
+<table>
+	<th>Friend Groups</th>
+
+{% for line in posts %}
+	<tr>
+		<td>{{line.title}}</td>
+	</tr>
+{% endfor %}
+</table>
+
+
+<a href="/make_friend_group">Make new Friend Group</a> 
+<br>
+<br>
+<br>
+<a href="/home">Go back</a>
+
+</body>
+
+
+</html>

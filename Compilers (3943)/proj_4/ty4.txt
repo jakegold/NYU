@@ -1,0 +1,6 @@
+int x;
+
+int main (int dummy) {
+   float x; /* redeclaration OK, local */
+   int x; /* re-redeclaration BAD */
+}

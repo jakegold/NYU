@@ -1,0 +1,5 @@
+/* re-declaration of a function with a consistent type is OK */
+  int fun (int);
+  int fun (int);
+  int fun (int x) { write "I was given ", x; }
+  int fun (float); /* type error */

@@ -1,0 +1,9 @@
+int main (int dummy) {
+   float x;
+   x;
+}
+
+int fun (int dummy) {
+   float x; /* unrelated local declaration OK, */
+   x; /* check this refers to the correct local declaration */
+}

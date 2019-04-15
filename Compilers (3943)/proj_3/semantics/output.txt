@@ -1,0 +1,112 @@
+test1.c
+
+Illegal character ':'
+Error: Did not close a parentheses!
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Error: Tried to use variable z, but it was never declared.
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    main()
+  File "main.py", line 29, in main
+    semantic_check(file_name, return_values)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/semantics.py", line 53, in semantic_check
+    check_assingments(line_number, assignments, func_def, declared_local_vars, declared_global_vars)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/assignment_checking.py", line 31, in check_assingments
+    print 'Type error on line ' + str(line_number) + ': trying to assign "' + lhs + '" of type ' + lhs_type + ' (declared on line ' + str(lhs_line_dec) + ' ) with "' + var + '" of type ' + rhs_type + ' (declared on line ' + str(rhs_line_dec) + ')'
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+
+test2.c
+
+Error: Declaring Function incorrectly!
+Error: Tried to use variable s, but it was never declared.
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    main()
+  File "main.py", line 29, in main
+    semantic_check(file_name, return_values)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/semantics.py", line 57, in semantic_check
+    check_returns(line_number, returns, func_def, declared_local_vars, declared_global_vars)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/check_returns.py", line 25, in check_returns
+    var_ints, var_floats = find_vars(identifiers, declared_local_vars, declared_global_vars, current_func)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/check_operators.py", line 56, in find_vars
+    identifier_type = find_local(declared_local_vars, current_func, identifier)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/function_checking.py", line 62, in find_local
+    variables = declared_local_vars[current_func]
+KeyError: None
+
+
+
+test2x.c
+
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    main()
+  File "main.py", line 29, in main
+    semantic_check(file_name, return_values)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/semantics.py", line 53, in semantic_check
+    check_assingments(line_number, assignments, func_def, declared_local_vars, declared_global_vars)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/assignment_checking.py", line 25, in check_assingments
+    for var in rhs:
+TypeError: 'NoneType' object is not iterable
+
+
+
+test3.c
+
+Illegal character '!'
+Error: Declaring Function incorrectly!
+.....(stuck in a loop I think)
+
+
+
+test3x.c
+
+.....(stuck in a loop I think)
+
+
+test_type_error.c
+
+
+Error: Did not close a parentheses!
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    main()
+  File "main.py", line 29, in main
+    semantic_check(file_name, return_values)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/semantics.py", line 53, in semantic_check
+    check_assingments(line_number, assignments, func_def, declared_local_vars, declared_global_vars)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/assignment_checking.py", line 31, in check_assingments
+    print 'Type error on line ' + str(line_number) + ': trying to assign "' + lhs + '" of type ' + lhs_type + ' (declared on line ' + str(lhs_line_dec) + ' ) with "' + var + '" of type ' + rhs_type + ' (declared on line ' + str(rhs_line_dec) + ')'
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+
+
+
+test_decl.c
+
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    main()
+  File "main.py", line 29, in main
+    semantic_check(file_name, return_values)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/semantics.py", line 53, in semantic_check
+    check_assingments(line_number, assignments, func_def, declared_local_vars, declared_global_vars)
+  File "/Users/Jake/Desktop/code/nyu/compilers_3943/proj_3/semantics/semantics/assignment_checking.py", line 31, in check_assingments
+    print 'Type error on line ' + str(line_number) + ': trying to assign "' + lhs + '" of type ' + lhs_type + ' (declared on line ' + str(lhs_line_dec) + ' ) with "' + var + '" of type ' + rhs_type + ' (declared on line ' + str(rhs_line_dec) + ')'
+TypeError: cannot concatenate 'str' and 'NoneType' objects
+
+
+
+test_decl_x.c
+
+.....(stuck in a loop I think)
+
+

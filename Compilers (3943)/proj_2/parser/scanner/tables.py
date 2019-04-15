@@ -1,0 +1,32 @@
+table = [
+    ['\/\*', 26, 'start comment'],
+    ['\*\/', 27, 'end comment'],
+    ['\/\/', 28, 'single line comment'],
+
+    ['int', 1, 'int'],
+    ['float', 2, 'float'],
+    ['if', 3, 'if'],
+    ['else', 4, 'else'],
+    ['while', 5, 'while'],
+    ['return', 6, 'return'],
+    ['read', 7, 'read'],
+    ['write', 8, 'write'],
+    ['[a-zA-Z_][a-zA-Z_0-9]*', 10, 'id'],
+    ['\+', 11, 'addition'],
+    ['-', 12, 'subtraction'],
+    ['\*', 14, 'multiplication'],
+    ['\/', 15,'division'],
+    ['=', 16,'assignment'],
+    ['\(', 17, 'left parenthesis'],
+    ['\)', 18, 'right parenthesis'],
+    ['\{', 19, 'left brace'],
+    ['\}', 20, 'right brace'],
+    [';', 21, 'semi colon'],
+    [',', 22, 'comma'],
+    ['[0-9]+', 23, 'int literal'],
+    ['[0-9]+\.[0-9]+', 24, 'float literal'],
+    # ['[some reg ex]', 25, 'string literal']# ADD THIS ONE...ITS A STRING
+    ['[ \t]', 99, 'WS'],
+    ['\n', 100, 'newline'],
+    ['', 101, 'end-of-file']
+]
