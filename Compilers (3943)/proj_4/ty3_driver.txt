@@ -1,0 +1,5 @@
+int x;
+int main (int dummy) {
+   float x; /* redeclaration OK, local */
+   x; /* check it refers to the local */
+}

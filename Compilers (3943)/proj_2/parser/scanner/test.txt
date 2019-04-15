@@ -1,0 +1,7 @@
+float f (int x /* x is the
+name of the parameter */)
+/* body follows */ {
+return x +1; }
+/* main */
+int main(int x)
+{ write f(7); }

@@ -1,0 +1,6 @@
+int x;
+
+int main (int dummy) {
+   float x; /* redeclaration OK, local */
+   float x; /* re-redeclaration BAD; even if same type */
+}

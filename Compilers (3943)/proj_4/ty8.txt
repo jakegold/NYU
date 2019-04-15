@@ -1,0 +1,11 @@
+/* type checking for simple arithmetic operations. in principle, this should be checked for ALL arithmetic operations and ALL combinations of types. */
+
+int main (int dummy) {
+  float x;
+  int i;
+  x+1.0; /* OK */
+  i+1; /* OK */
+  x+i; /* not OK */
+  /* should do the same for * / - and for all combinations of types */
+}
+

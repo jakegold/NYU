@@ -1,0 +1,18 @@
+2   keyword-if   if
+15   left-par   (
+49   ID   X
+34   equal   ==
+23   integer-literal   100
+16   right-par   )
+3   keyword-else   else
+15   left-par   (
+23   integer-literal   432
+Illegal character # in input      **
+49   ID   aBc
+16   right-par   )
+4   keyword-while   while
+15   left-par   (
+49   ID   var
+34   equal   ==
+23   integer-literal   12345
+16   right-par   )

@@ -1,0 +1,11 @@
+Global int variable y declared in line 0.
+Function int inc(int) defined in line 1.
+Local int variable x declared in line 1.
+Local variable x declared in line 1 used in line 4.
+Function float main(float) defined in line 6.
+Local float variable z declared in line 6.
+Local int variable x declared in line 7.
+Local variable x declared in line 7 used in line 8.
+Global variable y declared in line 0 used in line 8.
+Function int inc(int) defined in line 1 used in line 9.
+Local variable x declared in line 7 used in line 9.

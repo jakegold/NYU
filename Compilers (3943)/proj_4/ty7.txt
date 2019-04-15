@@ -1,0 +1,16 @@
+/* same as 6 but with an additional global */
+int x;
+
+int main (int dummy) {
+  float x;
+  x;
+}
+
+int fun (int dummy) {
+  float x; /* unrelated local declaration OK, */
+  x; /* check this refers to the correct local declaration */
+}
+
+int fun2 (int dummy) {
+  x; /* global reference */
+}
